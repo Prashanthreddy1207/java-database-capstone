@@ -15,8 +15,7 @@ _As a [user role], I want [feature/goal], so that [reason]._
 
 -------------------------------------------------------------
 
-# User Stories
-# Admin User Stories
+## Admin User Stories
 # User Story — Admin Login
 
 **Title:**
@@ -112,7 +111,7 @@ Results are readable and accurate.
 
 Could later be automated or shown in the dashboard.
 
-# Doctor User Stories
+## Doctor User Stories
 
 # User Story — Doctor Login
 
@@ -228,7 +227,7 @@ Data loads only for authorized appointments.
 
 Follow data privacy standards.
 
-# Patient User Stories
+## Patient User Stories
 # User Story — View Doctors List (No Login Required)
 
 **Title:**
