@@ -36,7 +36,7 @@ Admin is redirected to the dashboard after successful login.
 
 Show an error message for incorrect credentials.
 
-User Story — Admin Logout
+# User Story — Admin Logout
 
 **Title:**
 As an admin, I want to log out of the portal, so that I can protect system access.
@@ -55,7 +55,7 @@ User is redirected to the login page.
 
 Include session timeout for security.
 
-User Story — Add Doctor
+# User Story — Add Doctor
 
 **Title:**
 As an admin, I want to add doctors to the portal, so that they can manage appointments.
@@ -74,7 +74,7 @@ Doctor profile is saved successfully.
 
 Avoid duplicate doctor entries.
 
-User Story — Delete Doctor
+# User Story — Delete Doctor
 
 **Title:**
 As an admin, I want to delete a doctor’s profile, so that inactive or incorrect profiles are removed.
@@ -93,7 +93,7 @@ System asks for confirmation before deletion.
 
 Consider soft delete instead of permanent removal.
 
-User Story — Run Stored Procedure for Monthly Appointments
+# User Story — Run Stored Procedure for Monthly Appointments
 
 **Title:**
 As an admin, I want to run a stored procedure in MySQL CLI to get monthly appointment counts, so that I can track usage statistics.
@@ -113,6 +113,7 @@ Results are readable and accurate.
 Could later be automated or shown in the dashboard.
 
 # Doctor User Stories
+
 # User Story — Doctor Login
 
 **Title:**
@@ -132,7 +133,7 @@ Dashboard loads after successful login.
 
 Secure password handling required.
 
-User Story — Doctor Logout
+# User Story — Doctor Logout
 
 **Title:**
 As a doctor, I want to log out of the portal, so that I can protect my data.
@@ -151,7 +152,7 @@ Doctor is redirected to login screen.
 
 Auto-logout after inactivity recommended.
 
-User Story — View Appointment Calendar
+# User Story — View Appointment Calendar
 
 **Title:**
 As a doctor, I want to view my appointment calendar, so that I can stay organized.
@@ -170,7 +171,7 @@ Interface is easy to navigate.
 
 Consider color coding by status.
 
-User Story — Mark Unavailability
+# User Story — Mark Unavailability
 
 **Title:**
 As a doctor, I want to mark my unavailability, so that patients can only book available time slots.
@@ -189,7 +190,7 @@ Calendar updates automatically.
 
 Allow recurring unavailability (optional).
 
-User Story — Update Profile
+# User Story — Update Profile
 
 **Title:**
 As a doctor, I want to update my profile with specialization and contact information, so that patients see up-to-date details.
@@ -208,7 +209,7 @@ Updated details appear to patients.
 
 Optional: upload profile image.
 
-User Story — View Patient Details for Upcoming Appointments
+# User Story — View Patient Details for Upcoming Appointments
 
 **Title:**
 As a doctor, I want to view patient details for upcoming appointments, so that I can be prepared.
@@ -247,7 +248,7 @@ No login is required.
 
 Consider filtering options.
 
-User Story — Patient Signup
+# User Story — Patient Signup
 
 **Title:**
 As a patient, I want to sign up using my email and password, so that I can book appointments.
@@ -266,7 +267,7 @@ Account is created successfully.
 
 Email verification optional.
 
-User Story — Patient Login
+# User Story — Patient Login
 
 **Title:**
 As a patient, I want to log into the portal, so that I can manage my bookings.
@@ -285,7 +286,7 @@ Patient is taken to dashboard.
 
 Encrypt passwords.
 
-User Story — Patient Logout
+# User Story — Patient Logout
 
 **Title:**
 As a patient, I want to log out of the portal, so that I can secure my account.
@@ -304,7 +305,7 @@ Redirects to login page.
 
 Auto logout after inactivity.
 
-User Story — Book Appointment
+# User Story — Book Appointment
 
 **Title:**
 As a patient, I want to log in and book an hour-long appointment, so that I can consult with a doctor.
@@ -323,7 +324,7 @@ Confirmation message is displayed.
 
 Prevent double-booking.
 
-User Story — View Upcoming Appointments
+# User Story — View Upcoming Appointments
 
 **Title:**
 As a patient, I want to view my upcoming appointments, so that I can prepare accordingly.
